@@ -1,3 +1,3 @@
-import { Observable } from '@nativescript/core';
+import { WebView } from '@nativescript/core';
 
-export class SdkCommon extends Observable {}
+export class SdkCommon extends WebView {}

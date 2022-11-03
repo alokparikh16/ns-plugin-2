@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:ln="@leena/sdk" navigatingTo="navigatingTo" class="page">
     <Page.actionBar>
         <ActionBar title="sdk" icon="" class="action-bar">
         </ActionBar>
@@ -7,7 +7,7 @@
         <ScrollView class="h-full">
           <StackLayout>
             <Button text="Test sdk" tap="{{ testIt }}" class="btn btn-primary"/>
-
+            <ln:Sdk src="https://www.google.com"></ln:Sdk>
           </StackLayout>
         </ScrollView>
     </StackLayout>
