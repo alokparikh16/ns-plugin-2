@@ -1,6 +1,6 @@
 {
   "name": "@leena/sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Add a plugin description",
   "main": "index",
   "typings": "index.d.ts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alokparikh16/ns-plugin-2.git"
+    "url": "https://github.com/leena/ns-plugin-2.git"
   },
   "keywords": [
     "NativeScript",
@@ -23,13 +23,13 @@
   ],
   "author": {
     "name": "alok",
-    "email": "alokparikh16@gmail.com"
+    "email": "leena@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/alokparikh16/ns-plugin-2/issues"
+    "url": "https://github.com/leena/ns-plugin-2/issues"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/alokparikh16/ns-plugin-2",
+  "homepage": "https://github.com/leena/ns-plugin-2",
   "readmeFilename": "README.md",
   "bootstrapper": "@nativescript/plugin-seed"
 }

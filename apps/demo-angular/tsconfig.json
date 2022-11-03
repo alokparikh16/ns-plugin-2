@@ -1,11 +1,14 @@
 {
   "extends": "../../tsconfig.base.json",
+  "angularCompilerOptions": {
+    "strictTemplate": true,
+  },
   "compilerOptions": {
     "paths": {
       "~/*": ["src/*"],
       "@demo/shared": ["tools/demo/index.ts"],
       "@leena/*": ["../../dist/packages/*"]
-    }
+    },
   },
   "files": ["./references.d.ts", "./src/main.ts", "./src/polyfills.ts"],
   "include": ["../../packages/**/references.d.ts"]

@@ -1,6 +1,6 @@
 import { Component, NgZone } from '@angular/core';
 import { DemoSharedSdk } from '@demo/shared';
-import {} from '@leena/sdk';
+// import {} from '@leena/sdk';
 
 @Component({
   selector: 'demo-sdk',
