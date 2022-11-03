@@ -1,5 +1,5 @@
 {
-  "npmScope": "nativescript",
+  "npmScope": "leena",
   "affected": {
     "defaultBase": "master"
   },
